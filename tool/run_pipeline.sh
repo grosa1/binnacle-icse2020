@@ -45,13 +45,13 @@ cd "${DIR}/${PHASE1_DIR}" && bash generate.sh || exit 1
 echo "Running phase 2..."   
 cd "${DIR}/${PHASE2_DIR}" && bash generate.sh || exit 1
 
-# phase 3
-echo "Running phase 3..."   
-cd "${DIR}/${PHASE3_DIR}" && bash generate.sh || exit 1
+# # phase 3
+# echo "Running phase 3..."   
+# cd "${DIR}/${PHASE3_DIR}" && bash generate.sh || exit 1
 
-# phase 4
-echo "Running phase 4..."   
-cd "${DIR}/${PHASE4_DIR}" && bash generate.sh || exit 1
+# # phase 4
+# echo "Running phase 4..."   
+# cd "${DIR}/${PHASE4_DIR}" && bash generate.sh || exit 1
 
-echo "Output ASTs stored in ${ASTS_OUT_DIR}"
+# echo "Output ASTs stored in ${ASTS_OUT_DIR}"
 echo "Done!"
